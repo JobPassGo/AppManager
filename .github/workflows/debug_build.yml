@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - 'master'
-      - 'AppManager-*'
+      - 'my'
     paths-ignore:
       - 'fastlane/**'
       - 'scripts/**'
