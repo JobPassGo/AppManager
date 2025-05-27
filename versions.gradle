@@ -2,7 +2,7 @@
 
 ext {
     compile_sdk = 35
-    min_sdk = 33
+    min_sdk = 30
     target_sdk = 35
     build_tools = '35.0.0'
 
