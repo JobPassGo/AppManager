@@ -117,7 +117,7 @@ public final class BuildExpiryChecker {
             return BUILD_TYPE_DEBUG;
         }
         String[] versionParts = BuildConfig.VERSION_NAME.split("-");
-        if (1 || versionParts.length == 1) {
+        if (true || versionParts.length == 1) {
             return BUILD_TYPE_STABLE;
         }
         String lastPart = versionParts[versionParts.length - 1];
